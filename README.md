@@ -1,4 +1,4 @@
-# Pacote: image_transform
+# Pacote: image-transform-rgb-gray
 
 Pacote desenvolvido a partir de um desafio de projeto na [DIO](https://digitalinnovation.one/). 
 O pacote `image_tranform` lê uma imagem, as transforma tingindo-as na cor especificada e salva. As imagens podem ser tingidas nas seguintes cores:

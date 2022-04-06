@@ -1,4 +1,4 @@
-# Pacote: image-transform-rgb-gray
+# Pacote: image_transform_rgbgray
 
 Pacote desenvolvido a partir de um desafio de projeto na [DIO](https://digitalinnovation.one/). 
 O pacote lê uma imagem, as transforma tingindo-as na cor especificada e salva. As imagens podem ser tingidas nas seguintes cores:
@@ -14,14 +14,14 @@ O pacote lê uma imagem, as transforma tingindo-as na cor especificada e salva. 
 ## Instalação
 
 ```bash
-pip install image-transform-rgb-gray
+pip install image_transform_rgbgray
 ```
 
 ## Uso
 
 ```python
-from image-transform-rgb-gray.processing import transformation
-from image-transform-rgb-gray.utils import io
+from image_transform_rgbgray.processing import transformation
+from image_transform_rgbgray.utils import io
 
 image = io.read_image(path_image)
 transformation.gray(image)

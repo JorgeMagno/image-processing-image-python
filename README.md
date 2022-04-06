@@ -14,14 +14,14 @@ O pacote lê uma imagem, as transforma tingindo-as na cor especificada e salva. 
 ## Instalação
 
 ```bash
-pip install image_transform_rgbgray
+pip install transform-rgbgray
 ```
 
 ## Uso
 
 ```python
-from image_transform_rgbgray.processing import transformation
 from image_transform_rgbgray.utils import io
+from image_transform_rgbgray.processing import transformation
 
 image = io.read_image(path_image)
 transformation.gray(image)

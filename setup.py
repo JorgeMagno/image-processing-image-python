@@ -7,7 +7,7 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="image_transform_rgbgray",
+    name="transform_rgbgray",
     version="0.0.1",
     author="Jorge Magno",
     author_email="jorge.magnolm@gmail.com",
